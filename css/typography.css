@@ -8,9 +8,10 @@ body {
 }
 
 .nav-title2 {
+  color: aqua;
   font-weight: 700;
   font-size: 26px;
-  color: aqua;
+  
 }
 
 .button-text {
