@@ -6,6 +6,11 @@ body {
   font-weight: 700;
   font-size: 24px;
 }
+.nav-title2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: darkgreen;
+}
 
 .button-text {
   font-size: 14px;
