@@ -166,6 +166,10 @@ body {
       width: calc((100% - 16px) / 2);
     }
 
+    .gallery-image-container.third-width {
+      width: calc((100% - 16px) / 3);
+    }
+
     .gallery-image {
       width: 100%;
       height: auto;
