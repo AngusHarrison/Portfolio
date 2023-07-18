@@ -40,6 +40,8 @@ a.icon-link:hover {
 .nav-title-link {
   color: black;
   text-decoration: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-title-link:hover {
