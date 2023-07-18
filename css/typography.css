@@ -5,26 +5,12 @@ body {
 .nav-title {
   font-weight: 700;
   font-size: 24px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .nav-title2 {
   font-weight: 700;
   font-size: 24px;
   color: darkgreen;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .button-text {
