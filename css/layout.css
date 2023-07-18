@@ -21,9 +21,8 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  /* margin: 225px 425px; */
-  margin: 325px 525px;
-  display: flex;
+  margin: 225px 425px;
+   display: flex;
   flex-direction: column;
   gap: 96px;
 }
@@ -66,7 +65,8 @@ body {
 #about-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  /* gap: 16px; */
+  gap: 60px;
 }
 
 .about-section-content {
