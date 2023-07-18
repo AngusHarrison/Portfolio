@@ -26,7 +26,7 @@ body {
 }
 
 .image-caption {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -43,7 +43,7 @@ body {
 .body-text {
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .project-card-text {

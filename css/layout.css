@@ -48,6 +48,7 @@ body {
 .portfolio-header-image {
   width: 100%;
   height: auto;
+
 }
 
 #portfolio-header-text-container {
@@ -63,12 +64,14 @@ body {
 /* About Section */
 
 #about-section {
+  width: 95%;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
 .about-section-content {
+  width: 95%;
   display: flex;
   flex-direction: column;
   gap: 34px;
@@ -176,31 +179,40 @@ body {
     }
 
 
-/* Extra Extra large devices (large laptops and desktops, 1200px and below) */
-@media only screen and (max-width: 1600px) {
+/* Extra Extra Extra large devices (large laptops and desktops, 20000px and below) */
+@media only screen and (max-width: 2200px) {
   #main-content {
-    margin: 225px 275px;
+    margin: 225px 425px 10px;
+  }
+}
+
+
+/* Extra Extra large devices (large laptops and desktops, 1600px and below) */
+@media only screen and (max-width: 1700px) {
+  #main-content {
+    margin: 225px 375px 10px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and below) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   #main-content {
-    margin: 225px 175px;
+    margin: 225px 150px 10px;
   }
 }
 
-/* Large devices (laptops/desktops, 1000px and below) */
-@media only screen and (max-width: 1000px) {
+/* Large devices (laptops/desktops, 1000px and below) */  
+@media only screen and (max-width: 1200px) {
   #main-content {
-    margin: 225px 75px;
+    /* margin: 225px 75px; */
+    margin: 225px 75px 10px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
-    margin: 150px 50px;
+    margin: 150px 50px 10px;
   }
 
   #portfolio-header {
@@ -215,7 +227,7 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   #main-content {
-    margin: 125px 20px;
+    margin: 125px 20px 10px;
   }
 
   .project-card {
